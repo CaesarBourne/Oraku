@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sixtenlinear"
+    android:orientation="vertical"
+    android:background="@drawable/sixteenbackground"
+    tools:context=".TestOpele">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/lifecard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/lifelayout"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Life"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/wealthcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/wealthlayout"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Wealth"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/mothercard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:id="@+id/motherlayout"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Mother"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/parentscard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Parents"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/childrencard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="Children"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/illnesscard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Illness"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/marraigecard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Marriage"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/deathcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Death"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/travelcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="Travel"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/leadercard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Leader"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/mindcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Mind"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/enemycard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Enemy"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/demandcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="Demand"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/ownercard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Owner"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/homecard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Home"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/abroadcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rectangle_horizontal"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opeleback" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/opelefront" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Abroad"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangularbackground"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="96dp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="35dp"
+            android:layout_height="57dp"
+            android:layout_weight="1"
+
+            android:padding="5dp"
+            app:srcCompat="@drawable/circle_status" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="35dp"
+            android:layout_height="57dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:srcCompat="@drawable/circle_status" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="35dp"
+            android:layout_height="57dp"
+            android:layout_weight="1"
+            android:onClick="startTime"
+            android:padding="5dp"
+            app:srcCompat="@drawable/circle_status" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

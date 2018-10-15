@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/opelebigfront"
+                android:orientation="vertical"
+                android:id="@+id/maintwo"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:background="@color/colorPrimaryDarkTransparent"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="50dp"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp"
+                    >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Oraku Wallet"
+                    android:textColor="#fff"
+                    android:textSize="40sp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Upgrade you oraku app today and enjoy the endless chance of "
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/overlapImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="200dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/opelebigback"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+
+            android:gravity="center">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recyclerView"
+                android:orientation="horizontal">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </LinearLayout>

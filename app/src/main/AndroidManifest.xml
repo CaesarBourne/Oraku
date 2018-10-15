@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.caesar.opellaapp">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".OrakuApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="co.paystack.android.PublicKey"
+            android:value="pk_test_31c425fa24e6450068d2573450eb267748c25723" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RollActivity" />
+        <activity android:name=".Rotate3dAnimation" />
+        <activity android:name=".Test3DRotateActivity" />
+        <activity android:name=".OpeleData" />
+        <activity android:name=".BounceActivity" />
+        <activity android:name=".OpeleInfo" />
+        <activity android:name=".TestOpele" />
+        <activity android:name=".HomePageActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".WalletPay.WalletActivity" />
+        <activity
+            android:name="com.cooltechworks.creditcarddesign.CardEditActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".WalletPay.TestWalletLayout"
+            android:label="@string/title_activity_test_wallet_layout"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".WalletPay.CreditCardPaystack"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".CreditCardUtilities"></activity>
+    </application>
+
+</manifest>

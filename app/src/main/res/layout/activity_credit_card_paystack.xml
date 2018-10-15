@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".WalletPay.CreditCardPaystack">
+
+    <LinearLayout
+        android:id="@+id/card_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <!--<com.cooltechworks.creditcarddesign.CreditCardView-->
+        <!--android:id="@+id/card_1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:card_number="56656789000000000"-->
+        <!--app:card_holder_name="JOHN MATTEW"-->
+        <!--app:cvv="522"-->
+        <!--app:card_expiration="01/12"-->
+        <!--/>-->
+
+        <!--<com.cooltechworks.creditcarddesign.CreditCardView-->
+        <!--android:id="@+id/card_2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:card_number="34656789000000000"-->
+        <!--app:card_holder_name="JOHN MATTEW"-->
+        <!--app:cvv="522"-->
+        <!--app:card_expiration="01/12"-->
+        <!--/>-->
+
+        <!--<com.cooltechworks.creditcarddesign.CreditCardView-->
+        <!--android:id="@+id/card_3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:card_number="44656789000000000"-->
+        <!--app:card_holder_name="JOHN MATTEW"-->
+        <!--app:cvv="522"-->
+        <!--app:card_expiration="01/12"-->
+        <!--/>-->
+
+
+        <!--<com.cooltechworks.creditcarddesign.CreditCardView-->
+        <!--android:id="@+id/card_4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:card_number="56456789000000000"-->
+        <!--app:card_holder_name="JOHN MATTEW"-->
+        <!--app:cvv="522"-->
+        <!--app:card_expiration="01/12"-->
+        <!--/>-->
+
+        <!--<com.cooltechworks.creditcarddesign.CreditCardView-->
+        <!--android:id="@+id/card_5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:card_number="38056789000000000"-->
+        <!--app:card_holder_name="JOHN MATTEW"-->
+        <!--app:cvv="522"-->
+        <!--app:card_expiration="01/12"-->
+        <!--/>-->
+
+        <Button
+            android:id="@+id/add_card"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pay for seeds"
+            android:textColor="@color/primary_text"
+            android:background="@drawable/cardbuttonlayout"
+            android:padding="10dp"
+
+            />
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_viewImageView"
+            android:layout_width="100dp"
+            android:layout_below="@+id/layout_cvv"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            card_view:cardCornerRadius="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.0"
+                    android:id="@+id/payImageView"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textPrice"
+                    android:drawableLeft="@drawable/naira"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>
